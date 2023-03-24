@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo con FLEX</title>
+    <style>
+        .contenedor {
+            height: 75px;
+            background-color: lightblue;
+            display: flex;
+            /* DIRECCIÓN */
+            flex-direction: row;
+            justify-content: start;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .item {
+            width: 50px;
+            background-color: yellow;
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+        }
+        .itemEspecial {
+            width: 50px;
+            background-color: red;
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            color: white;
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="itemEspecial">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        
+    </div>
+</body>
+</html>
