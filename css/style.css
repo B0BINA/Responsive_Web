@@ -1,13 +1,15 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
-.row::after {
+.row:after {
     content: "";
     display: flex;
     clear: both;
     flex-wrap: wrap;
     flex-direction: row;
+    margin: 0%;
 }
 body {
     margin: 0;
@@ -68,10 +70,6 @@ h1 {
     float: left;
     padding-left: 30px;
 }
-.gmaps {
-    padding-left: 50px;
-    margin-left: 50px;
-}
 
 .col2titulos {
     font-family: Arial, Helvetica, sans-serif;
@@ -99,6 +97,80 @@ h1 {
 .porfavor {
     padding-left: 30px;
 }
+.column30 {
+    width: 30%;
+    float: left;
+    margin: 0;
+}
+
+.negro2 {
+    background-color: black;
+    text-align: center;
+}
+
+.espacio {
+    padding-top: 2%;
+    margin: 0;
+}
+
+.column2es {
+    width: 25%;
+    float: left;
+}
+
+.gris {
+    color: gray;
+}
+
+.mapa {
+    width: 500px;
+}
+
+.raro {
+    padding-left: 1%;
+    padding-top: 2%;
+}
+.col2 {
+    margin: 0;
+}
+
+.negro {
+    background-color: rgba(0, 0, 0, 0.473);
+   
+}
+
+.column20 {
+    width: 20%;
+    float: left;
+    margin: 0;
+    
+
+}
+
+.blanco {
+    color: white;
+}
+.column30 {
+    width: 30%;
+    float: left;
+    margin: 0;
+}
+
+.negro2 {
+    background-color: black;
+    text-align: center;
+}
+
+.espacio {
+    padding-top: 2%;
+    margin: 0;
+}
+
+.column2es {
+    width: 50%;
+    float: left;
+}
+
 @media only screen and (max-width:600px) {
     .column3{
         padding: 2%;
@@ -106,5 +178,56 @@ h1 {
         float: left;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .column2 {
+        width: 100%;
+        float: left;
+        padding-left: 30px;
+    }
+    .gmaps {
+        padding-left: 0px;
+        margin-left: 0px;
+        width: 99%;
+    }
+    .column3 {
+        width: 50%;
+    }
+    
+    .column2 {
+        width: 100%;
+    }
+    .mapa {
+        width: 100%;
+        margin: 0;
+    }
+    .column20{
+        width: 50%;
+
+    }
+    .abajo {
+        padding-left: 2%;
+    }
+    .column2es {
+        width: 100%;
+    }
+    .column30 {
+        width: 50%;
+    }
+    .raro {
+        padding-left: 2%;
+    }
+   
+    
+    .mapa {
+        width: 96%;
+        padding-left: 2%;
+        
+    }
+    .blanco {
+        padding-left: 5%;
+        padding-bottom: 30px;
+    }
+    .foot {
+        padding-left: 5%;
     }
 }
