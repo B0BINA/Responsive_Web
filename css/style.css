@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    display: flex;
+    clear: both;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+}
+.textoinicio {
+    font-size: 30px;
+}
+.h1inicio {
+    padding-top: 250px;
+    font-size: 50px;
+}
+.inicio {
+    background-image: url(../img/header.jpg);
+    position: cover;
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.column3{
+    display: flex;
+    padding: 6%;
+    width: 33%;
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imagen {
+    height: 100%;
+    float: left;
+    width: 100%;
+}
+
+.parteazul {
+    background-color: rgb(42, 159, 146);
+    color: white;
+}
+.azulmayor {
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.azulmenor {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.proyectos {
+    text-align: center;
+    font-size: 20px;
+}
+.column2 {
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+}
+.gmaps {
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.col2titulos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.col2textos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.especial {
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.475);
+    float: left;
+    flex-direction: row;
+}
+.ayuda{
+    color: white;
+    background-color: white;
+}
+.textosespecial {
+    padding-left: 20px;
+}
+.porfavor {
+    padding-left: 30px;
+}
+@media only screen and (max-width:600px) {
+    .column-2 {
+        width: 100%;
+    }
+}
