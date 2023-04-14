@@ -132,12 +132,9 @@ h1 {
 }
 .col2 {
     margin: 0;
+    background-color: white;
 }
 
-.negro {
-    background-color: rgba(0, 0, 0, 0.473);
-   
-}
 
 .column20 {
     width: 20%;
@@ -149,26 +146,35 @@ h1 {
 
 .blanco {
     color: white;
+
 }
+.ayudapls {
+    background-color: rgba(0, 0, 0, 0.473);}
 .column30 {
     width: 30%;
     float: left;
     margin: 0;
+    background-color: rgba(0, 0, 0, 0.473);
+
 }
 
 .negro2 {
     background-color: black;
     text-align: center;
+    
 }
 
 .espacio {
     padding-top: 2%;
     margin: 0;
+    
 }
 
 .column2es {
     width: 50%;
     float: left;
+    background-color: rgba(0, 0, 0, 0.473);
+
 }
 
 @media only screen and (max-width:600px) {
@@ -202,6 +208,7 @@ h1 {
     }
     .column20{
         width: 50%;
+        background-color: rgba(0, 0, 0, 0.473);
 
     }
     .abajo {
@@ -229,5 +236,6 @@ h1 {
     }
     .foot {
         padding-left: 5%;
+        background-color: rgba(0, 0, 0, 0.473);
     }
 }
